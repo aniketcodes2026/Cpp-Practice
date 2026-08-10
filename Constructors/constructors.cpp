@@ -8,8 +8,8 @@ class Complex
 public:
     // Creating a Constructor
     // Constructor is a special member function with the same name as of the class.
-    //It is used to initialize the objects of its class
-    //It is automatically invoked whenever an object is created
+    // It is used to initialize the objects of its class
+    // It is automatically invoked whenever an object is created
 
     Complex(void); // Constructor declaration
 
@@ -23,7 +23,6 @@ Complex ::Complex(void) // ----> This is a default constructor as it takes no pa
 {
     a = 10;
     b = 0;
-    // cout<<"Hello world";
 }
 
 int main()
@@ -35,3 +34,11 @@ int main()
 
     return 0;
 }
+
+/*CHARACTERISTICS OF CONSTRUCTORS
+
+1.It should be declared in the public section of the class.
+2.They are automatically invoked whenever the object is created.
+3.They cannot return values and do not have return type.
+4.It can have default arguments.
+5.We cannot refer to their address.*/
