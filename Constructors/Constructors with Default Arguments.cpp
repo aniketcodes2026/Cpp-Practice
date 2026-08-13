@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+
 class Simple{
     int data1;
     int data2;
