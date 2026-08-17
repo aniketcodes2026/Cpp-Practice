@@ -6,7 +6,7 @@
 
 // Print all natural number till 20
 
-  #include<iostream>
+#include<iostream>
 using namespace std;
 
 int main(){
