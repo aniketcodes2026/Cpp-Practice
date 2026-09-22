@@ -8,7 +8,6 @@ class Base{
         int b;
 
 };
-
 class Derived: protected Base{
    
 };
