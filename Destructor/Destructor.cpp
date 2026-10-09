@@ -3,7 +3,6 @@ using namespace std;
 
 
 // Destructor never takes an argument nor does it return any value 
-
 int count=0;
 class num{
     public:
