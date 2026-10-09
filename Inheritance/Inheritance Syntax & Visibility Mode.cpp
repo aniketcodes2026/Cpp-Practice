@@ -8,6 +8,7 @@ class {{derived-class-name}} : {{visibility-mode}} {{base-class-name}}
 using namespace std;
 
 // Base Class
+
 class Employee
 {
 public:
