@@ -3,6 +3,7 @@ class Base
 
 {
     int data1; // private by default and is not inheritable
+
 public:
     int data2;
     void setData();
